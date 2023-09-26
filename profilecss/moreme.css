@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://w0.peakpx.com/wallpaper/19/398/HD-wallpaper-iron-man-violet-logo-violet-brickwall-ironman-logo-iron-man-superheroes-ironman-neon-logo-iron-man-logo-ironman.jpg) no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.contain>h1
+{
+    color: rgb(244, 55, 219);
+}
+
+.proimg
+{
+    float: right;
+    border: 2px double black;
+    border-radius: 50%;
+    margin: 1rem;
+    width: 200px;
+    height: 200px;
+    /* background: plum; */
+    box-shadow: -15px -15px 15px rgb(243, 101, 243), 15px 15px 15px rgb(243, 101, 243), inset -5px -5px 5px rgb(243, 101, 243), inset 5px 5px 5px rgb(243, 101, 243);
+}
+
+.proimg:hover
+{
+    color: #081b29;
+    box-shadow: 0 0 5px plum, 0 0 25px plum, 0 0 50px plum, 0 0 100px plum, 0 0 200px plum;
+}
+
+#mame
+{
+    padding-left:31.5rem ;
+    margin: 1rem;
+}
+#h11{
+    font-size: xx-large;
+    color:darkolivegreen;
+}
+.table1{
+    border:3px solid blueviolet;
+    border-collapse:collapse ;
+    height:200px;
+    width: 57%;
+}
+tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.cont1{
+    font-style: italic;
+}
+#tr3{
+    background-color:rgba(4, 92, 98, 0.612) ;
+}
+#tr2{
+    background-color: aqua;
+}
+#tr4{
+    background-color: rgb(127, 73, 8);
+}
+ul>li{
+    list-style: none;
+}

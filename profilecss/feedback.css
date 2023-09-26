@@ -1,0 +1,69 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url(https://w0.peakpx.com/wallpaper/19/398/HD-wallpaper-iron-man-violet-logo-violet-brickwall-ironman-logo-iron-man-superheroes-ironman-neon-logo-iron-man-logo-ironman.jpg) no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        /* display: flex; */
+    }
+    
+    #reg {
+        font-size: xx-large;
+        color: rgb(244, 55, 219);
+        text-align: center;
+    }
+    
+    .feedback-form {
+        color: #fff;
+        margin: 0.9rem;
+        border: 4px double limegreen;
+        padding: 1rem;
+        width: 55%;
+    }
+    
+    .feedback-form>label {
+        padding: 0.4rem;
+        font-style: italic;
+    }
+    
+    .feedback-form>b {
+        color: aquamarine;
+        font-size: x-large;
+    }
+    
+    .loa {
+        margin: 0.1rem;
+        padding: 0.2rem;
+    }
+    
+    .radio-btn {
+        display: flex;
+        padding-left: 1rem;
+        margin-left: 0.8rem;
+    }
+    
+    .button {
+        border: 2px solid black;
+        border-radius: 0.4rem;
+        width: 25%;
+        padding: 0.4rem;
+        margin: 0.2rem;
+        cursor: pointer;
+        color: #081b29;
+    }
+    
+    .button:hover {
+        box-shadow: 0 0 5px rgb(125, 58, 135), 0 0 25px rgb(125, 58, 135), 0 0 50px rgb(125, 58, 135), 0 0 100px rgb(125, 58, 135), 0 0 200px rgb(125, 58, 135);
+        background: rgb(125, 58, 135);
+    }
+    
+    .loa1 {
+        margin-left: 2rem;
+    }
